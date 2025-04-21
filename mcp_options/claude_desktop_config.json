@@ -1,0 +1,10 @@
+{
+    "mcpServers": {
+      "MCP Server with response options": {
+        "command": "/Users/jkp/workspace/mcp-servers/mcp-servers/.venv/bin/python3",
+        "args": [
+          "/Users/jkp/workspace/mcp-servers/mcp-servers/mcp_options/resource_server.py"
+        ]
+      }
+    }
+  }

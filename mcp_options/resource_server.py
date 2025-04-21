@@ -12,7 +12,7 @@ mcp = FastMCP("MCP Server with response options")
 
 
 @mcp.resource("app://product/1")
-def get_config() -> dict:
+def get_product() -> dict:
     """Fetch product data from dummyjson API and return as JSON"""
     response = requests.get('https://dummyjson.com/products/1')
     return response.json()
