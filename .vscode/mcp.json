@@ -1,0 +1,14 @@
+{
+    "servers": {
+        "echo_echo": {
+            "command": "${workspaceFolder}/.venv/bin/python3",
+            "args": [
+                "${workspaceFolder}/echo_server/echo_server.py",
+            ],
+            "env": {
+                "PYTHONUNBUFFERED": "1",
+                "LOG_LEVEL": "DEBUG"
+            }
+        }
+    }
+}
