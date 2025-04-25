@@ -1,3 +1,5 @@
 # Add that is installed manually
 fastmcp
 requests
+pytest
+pytest-asyncio
